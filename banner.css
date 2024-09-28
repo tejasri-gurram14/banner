@@ -1,0 +1,104 @@
+*{ 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #252424;
+    color: #ffffff;
+}
+nav .logo img{
+    object-fit: contain;
+    max-width: 110px;
+    padding-top: 8px;
+}
+nav{
+    background-color: #111;
+    display: flex;
+    padding: 0 10px;
+    justify-content: space-between; 
+}
+nav .action{
+    display: flex;
+    margin: 10px 20px;
+}
+nav .action .signup{
+    background-color: #e50914;
+    padding: 4px 14px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: #ffffff;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 0 5px;
+}
+nav .action .signup:hover{
+    background-color:#111;
+    transition: 0.8ms;
+}
+nav .action .login{
+    background-color: transparent;
+    color: #ffffff;
+    padding: 4px 14px;
+    border: 2px solid #ffffff;
+    border-radius: 2px;
+    cursor:pointer;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin: 0 5px;
+}
+nav .action .login:hover{
+    background-color:#ffffffbf;
+    transition: 0.8ms;
+}
+
+.banner{
+    /*background: linear-gradient(90deg,#181818 10%,hsla(0,0%,9%,.98) 20%,hsla(0,0%,9%,.97) 25%,hsla(0,0%,9%,.95) 35%,hsla(0,0%,9%,.94) 40%,hsla(0,0%,9%,.92) 45%,hsla(0,0%,9%,.9) 50%,hsla(0,0%,9%,.87) 55%,hsla(0,0%,9%,.82) 60%,hsla(0,0%,9%,.75) 65%,hsla(0,0%,9%,.63) 70%,hsla(0,0%,9%,.45) 75%,hsla(0,0%,9%,.27) 80%,hsla(0,0%,9%,.15) 85%,hsla(0,0%,9%,.08) 90%,hsla(0,0%,9%,.03) 95%,hsla(0,0%,9%,0),https://occ-0-2484-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABTXMVyyrwrTWgeOMPk7pN4dN-vnXdF8G0Fjsd6rpBfz46nd3-R3mm9_IF9VafapWEkGX4OB3J7xHqWvmU0tyHscDhE9RMs0QGmcW.jpg?r=21d)*/
+background:linear-gradient(90deg, #181818 10%, hsla(0, 0%, 9%, .98) 20%, hsla(0, 0%, 9%, .97) 25%, hsla(0, 0%, 9%, .95) 35%, hsla(0, 0%, 9%, .94) 40%, hsla(0, 0%, 9%, .92) 45%, hsla(0, 0%, 9%, .9) 50%, hsla(0, 0%, 9%, .87) 55%, hsla(0, 0%, 9%, .82) 60%, hsla(0, 0%, 9%, .75) 65%, hsla(0, 0%, 9%, .63) 70%, hsla(0, 0%, 9%, .45) 75%, hsla(0, 0%, 9%, .27) 80%, hsla(0, 0%, 9%, .15) 85%, hsla(0, 0%, 9%, .08) 90%, hsla(0, 0%, 9%, .03) 95%, hsla(0, 0%, 9%, 0)),url("https://occ-0-7613-3663.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABSBqs7OM7SCAfGPt7yqTAdN2_btnIUsE_T1zrFHCBaK_tGpjSNYa1mGsELqnO0Yf2BCUtcXZKqqWQOKVjUnugX66wm3LxyQcnPjC.jpg?r=180");
+background-position: center center;
+background-size: cover;
+background-repeat: no-repeat;
+width: 100%;
+height:850px;
+}
+.bannercontent .bannertitle img{
+    object-fit: contain;
+    max-width: 50%;
+}
+.bannercontent{
+    padding: 12% 5%;
+}
+.bannercontent .bannertitle h1{
+    font-size: 24px;
+    font-weight: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px 0px;
+}
+.bannercontent .bannertitle h3 {
+    font-size: 16px;
+    color: #a3a3a3;
+    font-weight: 10px;
+    padding: 10px 0;
+}
+.bannercontent .bannertitle span{
+    padding: 0px 2px;
+}
+.bannercontent .bannertitle .user1 {
+    padding: 2.5px 5px;
+    border: 2px solid #a3a3a3;
+}
+p{
+    max-width: 35%;
+    padding:10px 0px ;
+    text-align: justify;
+}
+.bannercontent .bannertitle .user2{
+    color: #a3a3a3;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+    margin-right: 5px;
+}
